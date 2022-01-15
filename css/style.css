@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* ## Colors */
+
+  /* ### Primary */
+
+  --Soft-red: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+
+  --Dark-desaturated-cyan:(graphic design text): hsl(167, 40%, 24%);
+  --Dark-blue:(photography text): hsl(198, 62%, 26%);
+  --Dark-moderate-cyan:(footer): hsl(168, 34%, 41%);
+
+  /* ### Neutral- */
+  --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --Dark-grayish-blue: hsl(232, 10%, 55%);
+  --Grayish-blue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+
+  /* font-family: 'Fraunces', serif;
+  font-family: 'Barlow', sans-serif; */
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+header {
+  background-image: url('../images/desktop/image-header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.container-header{
+  border: 1px red solid;
+  width: 95%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-menu ul {
+  display: flex;
+}
