@@ -55,8 +55,19 @@ header {
 
 h1 {
   position: absolute;
-  border: 1px red solid;
-  top: 40%;
+  top: 20%;
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.menu-float {
+  display: none;
 }
 
 .container-header{
@@ -106,6 +117,27 @@ h1 {
 /* HERO */
 /* HERO */
 /* HERO */
+
+.content-arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-arrow i {
+  position: absolute;
+  top: 62%;
+  font-size: 50px;
+  color: white;
+}
+
+.line-arrow {
+  width: 6px;
+  background-color: white;
+  height: 140px;
+  position: absolute;
+  top: 45%;
+}
 
 .hero-item {
   display: flex;
@@ -310,8 +342,16 @@ h3 {
   color: white;
 }
 
+.content-burguer {
+  display: none;
+}
 
 
+
+/* Responsive */
+/* Responsive */
+/* Responsive */
+/* Responsive */
 /* Responsive */
 
 @media screen and (max-width: 1300px) {
@@ -319,9 +359,7 @@ h3 {
     margin-top: 80px;
   }
 
-  .container-menu {
-    display: none;
-  }
+  
 }
 
 @media screen and (max-width: 1129px) {
@@ -345,6 +383,7 @@ h3 {
     flex-direction: column-reverse;
   }
 
+  
   .hero-item-pink, .hero-item-fruits {
     flex-direction: column;
   }
@@ -426,6 +465,28 @@ h3 {
   }
 }
 
+
+@media screen and (max-width: 800px) { 
+  .container-menu {
+    display: none;
+  }
+
+  .container-header {
+    width: 85%;
+  }
+
+  .content-burguer {
+    display: block;
+    
+  }
+
+
+  .menu-float {
+    
+  }
+
+}
+
 @media screen and (max-width: 425px) { 
   .container-img {
     grid-template-columns: repeat(2, 1fr);
@@ -443,4 +504,14 @@ h3 {
   .items-footer {
     width: 100%;
   }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .container-logo img {
+    width: 115px;
+  }
+
+  
 }
