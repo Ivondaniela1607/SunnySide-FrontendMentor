@@ -157,7 +157,7 @@ h1 {
   width: 50%;
 }
 
-h3 {
+h2 {
   font-family: 'Fraunces', serif;
   font-size: 50px;
   margin-top: 150px;
@@ -387,7 +387,7 @@ h3 {
 /* Responsive */
 
 @media screen and (max-width: 1300px) {
-  h3 {
+  h2 {
     margin-top: 80px;
   }
 
@@ -395,7 +395,7 @@ h3 {
 }
 
 @media screen and (max-width: 1129px) {
-  h3 {
+  h2 {
     margin-top: 60px;
   }
 
@@ -425,7 +425,7 @@ h3 {
     text-align: center; 
   }
 
-  h3 {
+  h2 {
     margin-top: 20px;
     width: 80%;
     margin: 0 auto;
@@ -569,7 +569,7 @@ h3 {
     font-size: 15px;
   }
 
-  h3 {
+  h2 {
     font-size: 35px;
   }
 
