@@ -30,6 +30,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -508,11 +509,10 @@ h3 {
 
   .content-burguer {
     display: block;
-    
   }
 
   .menu-responsive {
-    display: block;
+    display: none;
     margin: 0 auto;
     height: 322px;
     position: absolute;
