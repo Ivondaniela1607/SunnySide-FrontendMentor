@@ -248,7 +248,7 @@ h2 {
 .title-client {
   text-align: center;
   font-family: 'Fraunces', serif;
-  margin: 120px 0 60px 0;
+  margin: 140px 0 60px 0;
   font-size: 18px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -300,6 +300,7 @@ h2 {
 .container-img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-top: 190px;
 }
 
 .container-img img {
