@@ -68,7 +68,7 @@ h1 {
   margin: 0 auto;
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 65px;
   letter-spacing: 5px;
 }
 
@@ -78,7 +78,7 @@ h1 {
 
 .container-header{
   width: 95%;
-  height: 100px;
+  height: 120px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -91,7 +91,7 @@ h1 {
 
 .container-menu ul li {
   list-style: none;
-  padding-right: 60px;
+  padding-left: 60px;
 }
 
 .container-menu2 ul li {
@@ -132,7 +132,7 @@ h1 {
 
 .content-arrow i {
   position: absolute;
-  top: 390px;
+  top: 405px;
   font-size: 50px;
   color: white;
 }
@@ -142,7 +142,7 @@ h1 {
   background-color: white;
   height: 140px;
   position: absolute;
-  top: 280px;
+  top: 300px;
 }
 
 .hero-item {
