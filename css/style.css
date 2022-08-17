@@ -48,6 +48,7 @@ header {
   background-size: cover;
   height: 100vh;
   position: relative;
+  height: clamp(650px, 60vw, 800px);
 }
 
 .container-logo img {
@@ -126,7 +127,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-top: 250px;
-  justify-content: sp;
   height: 170px;
 }
 
